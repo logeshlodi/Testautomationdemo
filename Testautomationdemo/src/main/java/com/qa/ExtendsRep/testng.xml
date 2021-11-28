@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Test Suite Reports" parallel="none">
+
+	<listeners>
+		<listener class-name="com.qa.ExtendsRep.ExtentReporterNG"/>
+	</listeners>
+
+
+	<test name="Sample Test Cases">
+		<classes>
+			<class name="com.qa.testcase.LoginPageTest"></class>
+		</classes>
+	</test>
+</suite>

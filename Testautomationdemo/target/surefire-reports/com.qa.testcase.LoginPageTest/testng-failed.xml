@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.qa.testcase.LoginPageTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.qa.testcase.LoginPageTest">
+        <methods>
+          <include name="To_Verify_the_valid_Login" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.testcase.LoginPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.qa.testcase.LoginPageTest] -->
