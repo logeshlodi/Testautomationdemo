@@ -7,7 +7,7 @@
         <methods>
           <include name="To_Verify_the_valid_Url"/>
           <include name="tearDown"/>
-          <include name="To_Verify_the_valid_Login" invocation-numbers="0"/>
+          <include name="To_Verify_the_valid_Login"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.qa.testcase.LoginPageTest -->

@@ -1,7 +1,5 @@
 package com.qa.testcase;
 
-import static org.testng.Assert.assertEquals;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -34,7 +32,7 @@ public class LoginPageTest extends Testbase {
 	public void To_Verify_the_valid_Url()
 	{
 		String title= loginPage.validateLoginPageTitle();
-		Assert.assertEquals(title, "Admin area demo");
+		Assert.assertEquals(title, "Your store. Login");
 		
 	}
 	@DataProvider
@@ -46,8 +44,13 @@ public class LoginPageTest extends Testbase {
 	@Test(priority=2,dataProvider = "gettestdata")
 	public void To_Verify_the_valid_Login(String username,String password)
 	{
+		LoginPage.username.clear();
+		LoginPage.Password.clear();
+		
 		loginPage.login(username, password);
-		Assert.assertEquals("Employee Distribution by Submit",driver.findElement(By.xpath("//*[@id='panel_resizable_0_4']/div[1]")).getText() );
+		
+		LoginPage.Submit.click();
+		Assert.assertEquals("Dashboard",driver.findElement(By.xpath("//h1[contains(.,'Dashboard')]")).getText() );
 	}
 	@AfterMethod
 	public void tearDown() 

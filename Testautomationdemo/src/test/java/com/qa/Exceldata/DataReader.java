@@ -11,7 +11,7 @@ public class DataReader {
 		ArrayList<Object[]> mydata=new ArrayList<Object[]>();
 		try
 		{
-			Reader= new ExelReader("E:\\Java Workplace\\Testautomationdemo\\src\\main\\java\\com\\qa\\testdata\\ExcelUtil.xlsx");
+			Reader= new ExelReader("src\\main\\java\\com\\qa\\testdata\\ExcelUtil.xlsx");
 		}catch(Exception e)
 		{
 			e.printStackTrace();
