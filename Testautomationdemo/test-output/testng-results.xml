@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-11T15:24:52 IST" name="Automation Test Suite Reports" finished-at="2022-03-11T15:25:31 IST" duration-ms="39418">
+  <suite started-at="2022-03-11T15:33:23 IST" name="Automation Test Suite Reports" finished-at="2022-03-11T15:33:57 IST" duration-ms="34394">
     <groups>
     </groups>
-    <test started-at="2022-03-11T15:24:52 IST" name="Sample Test Cases" finished-at="2022-03-11T15:25:31 IST" duration-ms="39418">
+    <test started-at="2022-03-11T15:33:23 IST" name="Sample Test Cases" finished-at="2022-03-11T15:33:57 IST" duration-ms="34394">
       <class name="com.qa.testcase.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcase.LoginPageTest@7334aada]" started-at="2022-03-11T15:24:52 IST" name="setup" finished-at="2022-03-11T15:25:06 IST" duration-ms="14144" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcase.LoginPageTest@7334aada]" started-at="2022-03-11T15:33:23 IST" name="setup" finished-at="2022-03-11T15:33:38 IST" duration-ms="15201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="To_Verify_the_valid_Url()[pri:1, instance:com.qa.testcase.LoginPageTest@7334aada]" started-at="2022-03-11T15:25:06 IST" name="To_Verify_the_valid_Url" finished-at="2022-03-11T15:25:06 IST" duration-ms="18" status="PASS">
+        <test-method signature="To_Verify_the_valid_Url()[pri:1, instance:com.qa.testcase.LoginPageTest@7334aada]" started-at="2022-03-11T15:33:38 IST" name="To_Verify_the_valid_Url" finished-at="2022-03-11T15:33:38 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- To_Verify_the_valid_Url -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcase.LoginPageTest@7334aada]" started-at="2022-03-11T15:25:06 IST" name="tearDown" finished-at="2022-03-11T15:25:08 IST" duration-ms="2647" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcase.LoginPageTest@7334aada]" started-at="2022-03-11T15:33:38 IST" name="tearDown" finished-at="2022-03-11T15:33:40 IST" duration-ms="1746" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcase.LoginPageTest@7334aada]" started-at="2022-03-11T15:25:09 IST" name="setup" finished-at="2022-03-11T15:25:21 IST" duration-ms="11694" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcase.LoginPageTest@7334aada]" started-at="2022-03-11T15:33:41 IST" name="setup" finished-at="2022-03-11T15:33:50 IST" duration-ms="9853" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="To_Verify_the_valid_Login(java.lang.String,java.lang.String)[pri:2, instance:com.qa.testcase.LoginPageTest@7334aada]" started-at="2022-03-11T15:25:21 IST" name="To_Verify_the_valid_Login" data-provider="gettestdata" finished-at="2022-03-11T15:25:28 IST" duration-ms="7183" status="PASS">
+        <test-method signature="To_Verify_the_valid_Login(java.lang.String,java.lang.String)[pri:2, instance:com.qa.testcase.LoginPageTest@7334aada]" started-at="2022-03-11T15:33:50 IST" name="To_Verify_the_valid_Login" data-provider="gettestdata" finished-at="2022-03-11T15:33:54 IST" duration-ms="3805" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- To_Verify_the_valid_Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcase.LoginPageTest@7334aada]" started-at="2022-03-11T15:25:28 IST" name="tearDown" finished-at="2022-03-11T15:25:31 IST" duration-ms="2939" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcase.LoginPageTest@7334aada]" started-at="2022-03-11T15:33:54 IST" name="tearDown" finished-at="2022-03-11T15:33:57 IST" duration-ms="2895" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
